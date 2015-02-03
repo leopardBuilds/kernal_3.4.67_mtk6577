@@ -37,28 +37,28 @@ CUSTOM_HAL_FLASHLIGHT = constant_flashlight
 #Camera HAL for JB Revision
 #CUSTOM_HAL_IMGSENSOR = ov8825_mipi_raw ov8827_mipi_raw hi704_yuv
 #Camera HAL for ICS Revision
-#CUSTOM_HAL_IMGSENSOR = ov8825_mipi_raw ov8826_mipi_raw hi704_yuv
 CUSTOM_HAL_IMGSENSOR = ov8825_mipi_raw ov8826_mipi_raw hi704_yuv
+#CUSTOM_HAL_IMGSENSOR = ov8825_mipi_raw ov8826_mipi_raw hi704_yuv
 #
 #
 #Camera HAL for JB Revision
 #CUSTOM_KERNEL_IMGSENSOR = ov8825_mipi_raw ov8827_mipi_raw hi704_yuv
 #Camera HAL for ICS Revision
-#CUSTOM_KERNEL_IMGSENSOR = ov8825_mipi_raw ov8826_mipi_raw hi704_yuv
 CUSTOM_KERNEL_IMGSENSOR = ov8825_mipi_raw ov8826_mipi_raw hi704_yuv
+#CUSTOM_KERNEL_IMGSENSOR = ov8825_mipi_raw ov8826_mipi_raw hi704_yuv
 #//Choose HAL configs//end\\
 #
 #
 #//Choose ALSPS configs//start\\
 #For MMX a110 JB and ICS Revisions
-#CUSTOM_KERNEL_ALSPS = cm3607
+CUSTOM_KERNEL_ALSPS = cm3607
 #For C2 Revision
 #CUSTOM_KERNEL_ALSPS=cm36283
 #
 #superdragonpt add December 25 2014
 #Auto-Detection of ALSPS, avoiding the compilation of the 3rd HW revision
-CUSTOM_KERNEL_ALSPS = cm3607 cm36283
-MTK_AUTO_DETECT_ALSPS = yes
+#CUSTOM_KERNEL_ALSPS = cm3607 cm36283
+#MTK_AUTO_DETECT_ALSPS = yes
 #//Choose ALSPS configs//end\\
 #
 #
